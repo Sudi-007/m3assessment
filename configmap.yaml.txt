@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: database-config-m3
+data:
+  DATABASE: "M3"
+  DBUSER: "postgres"
+  DBPASSWORD: "password"
+  DBHOST: "a520280e3179d42b4835b381dde28753-1339284433.us-east-2.elb.amazonaws.com"
